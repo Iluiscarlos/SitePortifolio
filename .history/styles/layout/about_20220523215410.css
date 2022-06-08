@@ -1,0 +1,9 @@
+.about{
+    display: flex;
+}
+.about__photo{
+    width: 450px;
+    display: inline-block;
+    align-items:flex-start;
+    vertical-align: middle;
+ }

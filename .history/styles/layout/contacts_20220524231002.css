@@ -1,0 +1,8 @@
+.inbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.inbox__add{
+    padding-top: 150px;
+}

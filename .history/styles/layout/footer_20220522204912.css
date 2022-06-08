@@ -1,0 +1,22 @@
+.footer{
+    display: block;
+    height: 250px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.footer__contacts-tittle{
+    color: var(--color-blue);
+    font-size: 35px;
+    font-weight: 900;
+ }
+.footer__contacts{
+
+    font-size: var(--font-size-default);
+    text-align:start;
+    padding-left: 100px;
+    padding-top: 30px;
+    line-height: 50px;
+ 
+}
+ 

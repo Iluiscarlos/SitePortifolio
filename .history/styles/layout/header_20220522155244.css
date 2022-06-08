@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    font-size: 18px;
+    background-color: var(--color-white);
+    /*border-bottom: var(--color-purple);*/
+    box-shadow: 0 5px 1em #cecece;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: var(--color-white);
+
+}
+
+.menu__item{
+    display: inline-block;
+    padding: 0 25px 0;
+    text-decoration: none;
+    border-right: 2px solid var(--color-black);
+    color: var(--color-black);
+}
+
+.menu__item:last-child{
+    border-right: none;
+}
+
+.header__logo{
+    margin-left: 50px; 
+    width: 250px;
+    margin-right: 450px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luís Carlos</title>
+    <link rel="stylesheet" href="Styles/base/reset.css">
+    <link rel="stylesheet" href="Styles/base/variables.css">
+    <link rel="stylesheet" href="Styles/base/base.css">
+    <link rel="stylesheet" href="Styles/layout/header.css">
+    <link rel="stylesheet" href="Styles/layout/about.css">
+    <link rel="stylesheet" href="Styles/layout/footer.css">
+    <link rel="stylesheet" href="Styles/components/icon.css">
+    <script src="https://kit.fontawesome.com/2c48374459.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="icons/logo.png" class="header__logo">
+        <nav class="menu__item">
+            <a href="index.html" class="menu__item">Ínicio</a>
+            <a href="about.html" class="menu__item">Sobre</a>
+            <a href="projects.html" class="menu__item">Projetos</a>
+            <a href="contacts.html" target="_self" class=" menu__item menu__item--active">Contatos</a>
+        </nav>
+    </header>
+    <section class="inbox">
+        <form>
+            <label for=name>Nome:</label>
+            <input class="form-item" type="text" id="name" name="name" placeholder="Nome">
+            <label for="email">Email:</label>
+            <input class="form-item" type="email" id="email" name="email" placeholder="E-mail">
+            <label for="phone">Telefone:</label>
+            <input class="form-item" type="tel" id="phone" name="phone" placeholder="Telefone">
+            <label for="attachments">Anexos:</label>
+            <input class="form-item" type="file" id="attachments" name="attachments">
+            <label for="message">Mensagem:</label>
+            <textarea class="form-item" id="message" name="message" rows="5" placeholder="Mensagem"></textarea>
+            <input class="form-item" type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+
+</html>

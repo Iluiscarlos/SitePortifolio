@@ -1,0 +1,12 @@
+.icon__large{
+    font-size: 4em;
+    color: var(--color-blue1);
+ }
+
+.icon__small{
+    text-decoration: none;
+    text-align: end;
+    font-size: 1em;
+    color: var(--color-blue);
+    letter-spacing: 7px;
+}

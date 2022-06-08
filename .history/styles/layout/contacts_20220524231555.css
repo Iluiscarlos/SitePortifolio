@@ -1,0 +1,11 @@
+.inbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.inbox__add{
+    display: inline;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

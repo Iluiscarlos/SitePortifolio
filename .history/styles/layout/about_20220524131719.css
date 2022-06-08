@@ -1,0 +1,45 @@
+.about{
+    display: flex;
+}
+
+.about__photo{
+    width: 400px;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 246px;
+    vertical-align: middle; 
+    object-fit: cover;
+}
+
+
+.about__tittle{
+    color: var(--color-blue);
+    font-size: 40px;
+    font-weight:900;
+    padding-top: 140px;
+    padding-right: 90px;
+    text-align: end;
+}
+
+
+.about__content{
+    font-family: var(--font-family-primary);
+    font-size: 18px;
+    font-weight:lighter;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+b{
+font-weight: bold;
+color: var(--color-blue);
+}
+

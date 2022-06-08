@@ -1,0 +1,32 @@
+.intro{
+   text-align: center;
+   font-size: large;
+   line-height: 25px;
+}
+
+.intro__tittle{
+   font-size: 22px;
+   font-weight:600;
+   letter-spacing: 1px;
+
+}
+.intro__coments{
+   font-style: italic;
+   font-size: var(--font-size-default);
+}
+
+.intro__icon{
+   font-size: 4em;
+   color: var(--color-blue1);
+}
+
+.intro__contacts{
+   display: flex;
+   background-color: var(--color-blue);
+   color: var(--color-white);
+   font-size: var(--font-size-default);
+   text-align:start;
+   padding-left: 100px;
+   padding-top: 30px;
+
+}

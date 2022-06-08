@@ -1,0 +1,18 @@
+.intro{
+   text-align: center;
+   font-size: large;
+}
+
+.intro__tittle{
+   font-size: 22px;
+   font-weight:600;
+   background-color: aqua;
+
+}
+.intro__photo{
+width: 1366px;
+object-fit:cover;
+/*border: 3px solid var(--color-black);
+border-radius: 6px;*/
+
+}

@@ -1,0 +1,15 @@
+.banner{
+    height: 720px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 480px){
+
+    .banner{
+        width: 500px;
+    }
+ }

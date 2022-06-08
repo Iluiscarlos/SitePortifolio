@@ -1,0 +1,26 @@
+.intro{
+   text-align: center;
+   font-size: large;
+   line-height: 25px;
+}
+
+.intro__tittle{
+   font-size: 22px;
+   font-weight:600;
+   letter-spacing: 1px;
+
+}
+.intro__coments{
+   font-style: italic;
+   font-size: var(--font-size-default);
+}
+
+span{
+   font-weight: bold;
+   font-size: 200%;
+}
+
+@media only screen and (max-width: 480px){
+
+   .intro{}
+}

@@ -1,0 +1,10 @@
+.about{
+    display: flex;
+}
+.about__photo{
+    width: 400px;
+    display: inline-block;
+    
+    vertical-align: middle;
+    padding-top: 200px;
+ }

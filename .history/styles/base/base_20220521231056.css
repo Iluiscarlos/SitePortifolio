@@ -1,0 +1,5 @@
+body {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-default);
+    background-color: linear-gradient(to bottom, rgb(0,0,0) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.9) 100% ), var(--color-purple);
+}

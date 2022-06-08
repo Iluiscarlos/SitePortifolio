@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+    background-color: white;
+
+}
+
+.menu__item{
+    margin-right: 50px;
+    border-right: 2px solid #4cc6ff;
+}
+
+.header__logo{
+    margin-left: 50px; 
+    width: 200px;
+    margin-right: 400px
+}

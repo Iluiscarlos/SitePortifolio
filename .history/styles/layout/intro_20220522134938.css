@@ -1,0 +1,13 @@
+.intro{
+   text-align: center;
+   font-size: large;
+   position: relative;
+}
+.intro__photo{
+width: 1366px;
+object-fit:cover;
+
+/*border: 3px solid var(--color-black);
+border-radius: 6px;*/
+
+}

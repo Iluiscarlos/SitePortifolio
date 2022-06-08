@@ -1,0 +1,20 @@
+.contents{
+display: block;
+justify-content: right;
+}
+
+.contents__tittle{
+   font-size: 26px;
+   font-weight:600;
+   display: inline-flex;
+   letter-spacing: 1px;
+}
+.contents__coments{
+   font-size: 16px;
+   font-style: italic;
+}
+
+.contents__icon{
+   font-size: 4em;
+   color: var(--color-blue1);
+}

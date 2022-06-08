@@ -1,0 +1,15 @@
+.projects{
+    display: flex;
+
+}
+
+.projects__list{
+    width: 50%;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.projects__discription{
+    width: 50%;
+}

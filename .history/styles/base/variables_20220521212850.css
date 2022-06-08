@@ -1,0 +1,10 @@
+:root{
+
+
+
+--font-family-neue:"Bebas Neue";
+--font-size-default: 16px;
+--border-radius-default:3px;
+
+--font-family-primary: var(--font-family-neue);
+}

@@ -1,0 +1,19 @@
+:root{
+    --color-red: #F41B3B;
+    --color-green: #1EBC99;
+    --color-blue: #38b6ff;
+    --color-blue1: #0058dd;
+    --color-purple:#6b009d;
+    --color-yellow: #F9CC0D;
+    --color-white: #ffffff;
+    --color-black: #333;
+    --color-darken-gray: #363536;
+    --color-light-gray: #807E81;
+    --color-gray: #4f4e50;
+    
+--font-family-Roboto:"Roboto Flex", 'Sans serif';
+--font-size-default: 16px;
+--border-radius-default:3px;
+
+--font-family-primary: var(--font-family-Roboto);
+}

@@ -1,0 +1,72 @@
+.about{
+    display: flex;
+}
+
+.about__photo{
+    width: 400px;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 250px;
+    vertical-align: middle; 
+    object-fit: cover;
+}
+
+
+.about__tittle{
+    color: var(--color-blue);
+    font-size: 40px;
+    font-weight:900;
+    padding-top: 140px;
+    padding-right: 90px;
+    text-align: end;
+}
+
+
+.about__content{
+    font-family: var(--font-family-primary);
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+b{
+font-weight: bold;
+color: var(--color-blue);
+}
+
+
+.experience{
+    display: block;
+    height: 350px;
+}
+
+.experience__title{
+    color: var(--color-blue);
+    font-size: 40px;
+    font-weight:500;
+    padding-top: 25px;
+    text-align: center;
+    vertical-align:top;
+}
+
+.experience__list{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 80px;
+}
+
+.experience__edu{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 80px;
+}

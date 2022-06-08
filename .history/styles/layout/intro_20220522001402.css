@@ -1,0 +1,15 @@
+.intro{
+   text-align: center;
+   font-size: 22px;
+}
+.intro__photo{
+
+/*border: 3px solid var(--color-black);*/
+border-radius: 6px;
+height: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}

@@ -1,0 +1,29 @@
+.intro{
+   text-align: center;
+   font-size: large;
+   line-height: 25px;
+   font-size: 16px;
+}
+
+.intro__tittle{
+   font-size: 22px;
+   font-weight:600;
+   display: inline-flex;
+   letter-spacing: 1px;
+
+}
+.intro__coments{
+   font-style: italic;
+}
+
+.intro__icon{
+   font-size: 4em;
+   color: var(--color-blue1);
+}
+.intro__photo{
+width: 1355px;
+object-fit:cover;
+/*border: 3px solid var(--color-black);
+border-radius: 6px;*/
+
+}

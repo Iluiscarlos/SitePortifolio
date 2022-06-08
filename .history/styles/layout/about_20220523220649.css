@@ -1,0 +1,16 @@
+.about{
+    display: flex;
+}
+.about__photo{
+    width: 400px;
+    display: inline-block;
+    padding-left: 100px;
+    vertical-align: middle;
+    padding-top: 150px; 
+}
+
+.content__tittle{
+    font-size: 22px;
+    font-weight:600;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,54 @@
+.andress {
+    display: flex;
+    height: 350px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+
+.andress__contacts{
+    display: block;
+    font-size: var(--font-size-default);
+    line-height: 60px;
+}
+
+.andress__contacts-tittle{
+    color: var(--color-blue);
+    font-size: 28px;
+    font-weight: 900;
+    
+}
+
+
+.contacts{
+    display: block;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.andress__rede{
+    display: block;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.andress__add{
+    line-height: 25px;
+    padding-left: 100px;
+    text-align:center;
+}
+
+
+.footer__copy{
+    display: block;
+    font-size: var(--font-size-default);
+    line-height: 22px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+}
+ 

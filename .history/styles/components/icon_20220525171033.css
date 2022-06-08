@@ -1,0 +1,22 @@
+.icon__large{
+    font-size: 4em;
+    color: var(--color-blue1);
+    text-align: center;
+}
+
+.icon__large:last-child{
+    text-align: end;
+}
+
+.icon__small{
+    text-decoration: none;
+    text-align: end;
+    font-size: 1em;
+    color: var(--color-blue);
+    letter-spacing: 7px;
+}
+
+.icon__small i:hover{
+    transform: translateX(1px) rotate(10deg) translateY(0.3px) scale(1.2);
+    transition-duration: 1000ms;
+}

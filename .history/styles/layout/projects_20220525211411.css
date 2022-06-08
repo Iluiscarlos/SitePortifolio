@@ -1,0 +1,13 @@
+.projects{
+    display: flex;
+
+}
+
+.projects__list{
+    width: 50%;
+    font-size: 22px;
+}
+
+.projects__discription{
+    width: 50%;
+}

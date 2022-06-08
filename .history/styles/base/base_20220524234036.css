@@ -1,0 +1,15 @@
+body {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-default);
+    background-color:  var(--color-white);
+}
+
+.divisor{
+    size: 1;
+    width: 80%;
+}
+
+.divisor2{
+    size 1;
+    width: 80%;
+}

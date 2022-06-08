@@ -1,0 +1,27 @@
+.intro{
+   
+   font-size: large;
+   line-height: 25px;
+}
+
+.intro__tittle{
+   font-size: 22px;
+   font-weight:600;
+   letter-spacing: 1px;
+
+}
+.intro__coments{
+   font-style: italic;
+   font-size: var(--font-size-default);
+}
+
+.intro__icon{
+   font-size: 4em;
+   color: var(--color-blue1);
+}
+
+.intro__photo{
+   width: 250px;
+   display: inline-block;
+   align-items: flex-start;
+}

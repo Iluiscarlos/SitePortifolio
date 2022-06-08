@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 5px 1em #cecece;
+}
+
+.header__logo{
+width: 200px;
+margin-right: 150px;
+}

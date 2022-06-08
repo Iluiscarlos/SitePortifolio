@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 350px;
+}
+
+.footer__contacts-tittle{
+    color: var(--color-blue);
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.footer__contacts{
+    font-size: var(--font-size-default);
+    text-align:start;
+    padding-left: 100px;
+    padding-top: 30px;
+    line-height: 50px;
+}
+
+.contacts{
+    display: block;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.footer__rede{
+    font-size: 20px;
+    text-align: end;
+    padding-top: 150px;
+
+    
+
+}
+.footer__icon{
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--color-blue);
+    letter-spacing: 7px;
+}
+ 

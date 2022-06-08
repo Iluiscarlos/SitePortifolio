@@ -1,0 +1,23 @@
+.contents{
+display: inline-block;
+justify-content: center;
+align-self: center;
+vertical-align: middle;
+margin-left: 350px;
+}
+
+.contents__tittle{
+   font-size: 26px;
+   font-weight:600;
+   letter-spacing: 1px;
+}
+.contents__coments{
+   font-size: 16px;
+   font-style: italic;
+   letter-spacing: 2px;
+}
+
+.contents__icon{
+   font-size: 4em;
+   color: var(--color-blue1);
+}

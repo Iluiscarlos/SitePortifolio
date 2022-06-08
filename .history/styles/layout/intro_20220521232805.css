@@ -1,0 +1,10 @@
+.intro{
+    justify-content: center;
+    align-items: center;
+}
+.intro__photo{
+margin-left: 400px;
+width: 500px;
+border: 3px solid var(--color-blue);
+
+}

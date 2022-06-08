@@ -1,0 +1,20 @@
+.contents{
+display: flex;
+justify-content: center;
+}
+
+.contents__tittle{
+   justify-content: center;
+   font-size: 26px;
+   font-weight:600;
+   letter-spacing: 1px;
+}
+.contents__coments{
+   font-size: 16px;
+   font-style: italic;
+}
+
+.contents__icon{
+   font-size: 4em;
+   color: var(--color-blue1);
+}

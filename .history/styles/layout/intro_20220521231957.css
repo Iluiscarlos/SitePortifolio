@@ -1,0 +1,10 @@
+.intro{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+}
+.intro__photo{
+    border-style: dashed;
+margin-left: 400px;
+width: 500px;
+}

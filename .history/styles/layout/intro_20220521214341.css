@@ -1,0 +1,8 @@
+.intro{
+    justify-content: center;
+    align-items: center;
+}
+.intro__photo{
+margin-left: 400px;
+width: 500px;
+}

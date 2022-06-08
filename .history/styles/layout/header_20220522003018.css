@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 100PX;
+    /*background-color: var(--color-black);
+    border-bottom: var(--color-purple);*/
+    /*box-shadow: 0 12px 1em #cecece;*/
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.menu__item{
+    padding: 0 25px 0;
+    text-decoration: none;
+    border-right: 2px solid var(--color-purple);
+    color: var(--color-blue);
+}
+
+.menu__item:last-child{
+    border-right: none;
+}
+
+.header__logo{
+    margin-left: 50px; 
+    width: 200px;
+    margin-right: 450px
+}

@@ -1,0 +1,19 @@
+.projects{
+    display: flex;
+    background-color: var(--color-black);
+    margin-top: 200px;
+
+}
+
+.projects__list{
+    width: 50%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.projects__description{
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+}

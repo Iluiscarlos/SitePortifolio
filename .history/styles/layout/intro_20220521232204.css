@@ -1,0 +1,9 @@
+.intro{
+    justify-content: center;
+    align-items: center;
+}
+.intro__photo{
+    border-style: dashed;
+margin-left: 400px;
+width: 500px;
+}

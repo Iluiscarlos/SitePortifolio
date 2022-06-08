@@ -1,0 +1,45 @@
+.inbox{
+    display: flex;
+    flex-direction:column;
+    /*background-image: linear-gradient(to right, var(--color-blue1), var(--color-black));*/
+    width: 1000px;
+    align-items: center;
+}
+
+.inbox__add{
+    padding-top: 100px;
+}
+
+.form-item {
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-style:solid;
+  }
+
+.form-item#attachments{
+    border-style: none;
+}
+
+form{
+    width: 800px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+
+label{
+    color: var(--color-black);
+    font-weight: 500;
+    width: 500px;
+}
+
+input{
+    background-color: var(--color-white);
+}
+
+.social{
+    text-align: center;
+}

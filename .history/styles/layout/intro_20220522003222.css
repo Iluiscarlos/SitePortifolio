@@ -1,0 +1,11 @@
+.intro{
+   text-align: center;
+   font-size: large;
+}
+.intro__photo{
+width: 1500px;
+/*border: 3px solid var(--color-black);
+border-radius: 6px;*/
+margin-top: 100px;
+
+}

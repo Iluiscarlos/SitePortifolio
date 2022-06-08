@@ -1,0 +1,6 @@
+.banner{
+    display: flex;
+    width: 600px;
+    object-fit:cover;
+
+}

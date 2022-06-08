@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luís Carlos</title>
+    <link rel="stylesheet" href="Styles/base/reset.css">
+    <link rel="stylesheet" href="Styles/base/variables.css">
+    <link rel="stylesheet" href="Styles/base/base.css">
+    <link rel="stylesheet" href="Styles/layout/header.css">
+    <link rel="stylesheet" href="Styles/layout/about.css">
+    <link rel="stylesheet" href="Styles/layout/footer.css">
+    <link rel="stylesheet" href="Styles/layout/contacts.css">
+    <link rel="stylesheet" href="Styles/components/icon.css">
+    <script src="https://kit.fontawesome.com/2c48374459.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+        <img src="icons/logo.png" class="header__logo">
+        <nav class="menu__item">
+            <a href="index.html" class="menu__item">Ínicio</a>
+            <a href="about.html" class="menu__item">Sobre</a>
+            <a href="projects.html" class="menu__item">Projetos</a>
+            <a href="contacts.html" target="_self" class=" menu__item menu__item--active">Contatos</a>
+        </nav>
+        </div>
+    </header>
+    <main class="container">
+    <h1 class="about__tittle">{Entre em contato comigo}</h1>
+    <section class="inbox">
+        <div class="inbox__add">
+        <form>
+            <label for=name>Nome</label><br>
+            <input class="form-item" type="text" id="name" name="name" placeholder="Nome">
+            <br>
+            <label for="email">Email</label><br>
+            <input class="form-item" type="email" id="email" name="email" placeholder="E-mail">
+            <br>
+            <label for="phone">Telefone</label><br>
+            <input class="form-item" type="tel" id="phone" name="phone" placeholder="Telefone">
+            <br>
+            <label for="attachments">Anexos</label><br>
+            <input class="form-item" type="file" id="attachments" name="attachments">
+            <br>
+            <label for="message">Mensagem</label><br>
+            <textarea class="form-item" id="message" name="message" rows="5" placeholder="Mensagem"></textarea>
+            <input class="form-item" type="submit" value="Enviar">
+        </form>
+        </div>
+        <div class="social">
+            <div class="icon__large">
+                <i class="fa-solid fa-address-card"></i>
+            </div>
+            <h1 class="subtitle">Social</h1>
+            <br>
+            <br>
+            <br>
+            <a class="icon__medium" href="https://www.linkedin.com/in/luis-carlos-kochenborger" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+                <a class="icon__medium" href="https://api.whatsapp.com/send?phone=5551993349130&text=Contate-me"
+            target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a class="icon__medium" href="https://www.instagram.com/iluis.kochenborger/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
+                <a class="icon__medium" href="https://www.facebook.com/luiscarlos.kochenborger/" target="_blank"><i
+                class="fa-brands fa-facebook"></i></a>
+                <a class="icon__medium" href="https://github.com/Iluiscarlos" target="_blank"><i
+                class="fa-brands fa-github"></i></a>
+            </div>
+    </section>
+
+</main>
+    <footer>
+        <section class="andress">
+            <div class="andress__contacts">
+                <h1 class="andress__contacts-tittle">{ Contate-me }</h1>
+                <a class="contacts" href="mailto:luiskochenborger@gmail.com">E-mail: luiskochenborger@gmail.com</a>
+                <a class="contacts" href="tel:+55051993349130">Telefone: (55) 51 9 9334-9130</a>
+            </div>
+            <address class="andress__add">
+                Endereço: Rod RSC 453 KM 21, Bairro São Rafael<br>
+                Cruzeiro do sul, Rio Grande do Sul, Brasil
+            </address>
+            <div class="andress__rede">
+                <h1 id="andress__rede">Conecte-se nas redes</h1>
+                <br>
+                <a class="icon__small" href="https://www.linkedin.com/in/luis-carlos-kochenborger" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a class="icon__small" href="https://api.whatsapp.com/send?phone=5551993349130&text=Contate-me"
+                    target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a class="icon__small" href="https://www.instagram.com/iluis.kochenborger/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a class="icon__small" href="https://www.facebook.com/luiscarlos.kochenborger/" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a class="icon__small" href="https://github.com/Iluiscarlos" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+        <hr>
+            <span class="footer__copy">
+                &copy;2022 Todos direitos reservados
+            </span>
+        </footer>
+    </body>
+    </html>
+</body>
+</html>

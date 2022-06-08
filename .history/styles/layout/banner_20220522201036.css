@@ -1,0 +1,7 @@
+.banner{
+    width: 1350px;
+    object-fit:cover;
+    /*border: 3px solid var(--color-black);
+    border-radius: 6px;*/
+    
+    }
